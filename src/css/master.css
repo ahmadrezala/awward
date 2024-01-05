@@ -1,0 +1,26 @@
+@font-face {
+    font-family: MonumentExtended;
+    src: url('../font/MonumentExtended-Regular.otf');
+}
+
+
+@font-face {
+    font-family: Ultrabold;
+    src: url('../font/MonumentExtended-Ultrabold.otf');
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+ 
+
+

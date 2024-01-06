@@ -662,10 +662,6 @@ video {
   height: 100px;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
-}
-
 .h-\[300vh\] {
   height: 300vh;
 }
@@ -720,6 +716,22 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[35\] {
+  width: 35;
+}
+
+.w-\[35\%\] {
+  width: 35%;
 }
 
 @keyframes wiggle {
@@ -798,29 +810,14 @@ video {
   stroke-width: 2;
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.object-bottom {
-  -o-object-position: bottom;
-     object-position: bottom;
-}
-
 .object-top {
   -o-object-position: top;
      object-position: top;
-}
-
-.object-center {
-  -o-object-position: center;
-     object-position: center;
 }
 
 .px-\[10px\] {
@@ -926,6 +923,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -959,8 +960,20 @@ video {
     width: 50%;
   }
 
+  .md\:w-\[390px\] {
+    width: 390px;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
   .md\:justify-end {
     justify-content: flex-end;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
   }
 }
 
